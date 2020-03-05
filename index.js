@@ -59,27 +59,38 @@ return this.Salary;
     this.Salary=Salary;
   },
 };
-
-obj.setId('1');
+let Id=obj.getId();
+console.log('Id:',Id);
+obj.setId('2');
 Id =obj.getId();
 console.log('Id:',Id);
 
-obj.setName('kaaviya');
+let Name=obj.getName();
+console.log('Name:',Name);
+obj.setName('kaaviyasri');
 Name=obj.getName();
 console.log('Name:',Name);
 
+let Contact=obj.getContact();
+console.log('Contact:',Contact);
 obj.setContact('464656');
 Contact =obj.getContact();
 console.log('Contact:',Contact);
 
+let Position=obj.getPosition();
+console.log('Position:',Position);
 obj.setPosition('employee');
 Position =obj.getPosition();
 console.log('Position:',Position);
 
+let Department=obj.getDepartment();
+console.log('Department:',Department);
 obj.setDepartment('ece');
 Department =obj.getDepartment();
 console.log('Department:',Department);
 
+let Salary=obj.getSalary();
+console.log('Salary:',Salary);
 obj.setSalary('3430000');
 Salary=obj.getSalary();
 console.log('Salary:',Salary);
